@@ -28,7 +28,7 @@ float suma( float numero, int contador, float resultado)
     contador += 1;
     
     if( contador > 10)  //base case, replaces the number ten with number n to increase the number of sums.
-		    return resultado;
-	  else
-	      return suma(numero, contador, resultado);
+	    return resultado;
+    else
+	    return suma(numero, contador, resultado);
 }
